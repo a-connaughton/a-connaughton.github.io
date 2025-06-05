@@ -268,3 +268,37 @@ footer {
     color:#444;
   }
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #999;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.topnav a:last-child {
+  border-right: none;
+}
+
+.topnav a:hover {
+  background-color: #eaeaea;
+  color: #333;
+}
+
+.topnav a.active {
+  background-color: #ddd;
+  color: #222;
+  font-weight: bold;
+}
