@@ -291,3 +291,7 @@ footer {
 .topnav a.active {
       background-color: #911313;
       color: white;
+  
+.topnav {
+  margin-bottom: 20px;
+}
